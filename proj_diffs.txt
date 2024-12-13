@@ -1,0 +1,95 @@
+diff --git a/Atari Pong/collect_data.py b/Atari Pong/collect_data.py
+index 38ae9fc..0ca0c81 100644
+--- a/Atari Pong/collect_data.py	
++++ b/Atari Pong/collect_data.py	
+@@ -15,7 +15,8 @@ from collections import deque
+ 
+ 
+ ENVIRONMENT = "PongDeterministic-v4"
+-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
++# DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
++DEVICE = torch.device("cpu")
+ SAVE_MODELS = False  # Save models to file so you can test later
+ MODEL_PATH = "./models/pong-cnn-"  # Models path for saving or loading
+ SAVE_MODEL_INTERVAL = 10  # Save models at every X epoch
+diff --git a/Atari Pong/requirements.txt b/Atari Pong/requirements.txt
+index 15eff41..8bd4c96 100644
+--- a/Atari Pong/requirements.txt	
++++ b/Atari Pong/requirements.txt	
+@@ -1,4 +1,4 @@
+-ale-py==0.7.5
++# ale-py==0.7.5
+ appnope==0.1.3
+ argon2-cffi==21.3.0
+ argon2-cffi-bindings==21.2.0
+@@ -111,17 +111,17 @@ zipp==3.8.1
+ 
+ 
+ 
+-python3 -m venv pwnet
+-source pwnet/bin/activate
+-pip3 install --upgrade pip
+-pip install gym==0.21.0  
+-pip install opencv-python
+-pip3 install torch torchvision torchaudio
+-pip install atari-py==0.2.9
+-pip install gym'[atari]'
+-pip install gym'[accept-rom-license]'
+-pip install scikit-learn
+-pip install toml
++# python3 -m venv pwnet
++# source pwnet/bin/activate
++# pip3 install --upgrade pip
++# pip install gym==0.21.0  
++# pip install opencv-python
++# pip3 install torch torchvision torchaudio
++# pip install atari-py==0.2.9
++# pip install gym'[atari]'
++# pip install gym'[accept-rom-license]'
++# pip install scikit-learn
++# pip install toml
+ 
+ 
+ 
+diff --git a/Atari Pong/run_kmeans.py b/Atari Pong/run_kmeans.py
+index 6abec7c..71c72eb 100644
+--- a/Atari Pong/run_kmeans.py	
++++ b/Atari Pong/run_kmeans.py	
+@@ -44,7 +44,8 @@ NUM_ITERATIONS = 5
+ 
+ 
+ ENVIRONMENT = "PongDeterministic-v4"
+-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
++# DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
++DEVICE = torch.device("cpu")
+ SAVE_MODELS = False  # Save models to file so you can test later
+ MODEL_PATH = "./models/pong-cnn-"  # Models path for saving or loading
+ SAVE_MODEL_INTERVAL = 10  # Save models at every X epoch
+diff --git a/Atari Pong/run_pwnet*.py b/Atari Pong/run_pwnet*.py
+index fea4307..68dd9db 100644
+--- a/Atari Pong/run_pwnet*.py	
++++ b/Atari Pong/run_pwnet*.py	
+@@ -46,7 +46,8 @@ NUM_ITERATIONS = 3
+ 
+ 
+ ENVIRONMENT = "PongDeterministic-v4"
+-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
++# DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
++DEVICE = torch.device("cpu")
+ SAVE_MODELS = False  # Save models to file so you can test later
+ MODEL_PATH = "./models/pong-cnn-"  # Models path for saving or loading
+ SAVE_MODEL_INTERVAL = 10  # Save models at every X epoch
+diff --git a/Atari Pong/run_pwnet.py b/Atari Pong/run_pwnet.py
+index 0107c5e..020cbba 100644
+--- a/Atari Pong/run_pwnet.py	
++++ b/Atari Pong/run_pwnet.py	
+@@ -47,7 +47,8 @@ NUM_ITERATIONS = 3
+ 
+ 
+ ENVIRONMENT = "PongDeterministic-v4"
+-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
++# DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
++DEVICE = torch.device("cpu")
+ SAVE_MODELS = False  # Save models to file so you can test later
+ MODEL_PATH = "./models/pong-cnn-"  # Models path for saving or loading
+ SAVE_MODEL_INTERVAL = 10  # Save models at every X epoch

@@ -1,0 +1,289 @@
+(pwnet) [yash:...r-Network-ICLR23/Atari Pong]$ py collect_data.py                                                 (main✱) 
+A.L.E: Arcade Learning Environment (version 0.7.5+db37282)
+[Powered by Stella]
+Episode:901 Time:08:18:40 Reward:8.00 Loss:0.00 Last_100_Avg_Rew:8.000 Avg_Max_Q:0.000 Epsilon:0.05 Duration:3.61 Step:2598 CStep:2600
+Episode:902 Time:08:18:43 Reward:15.00 Loss:0.00 Last_100_Avg_Rew:11.500 Avg_Max_Q:0.000 Epsilon:0.05 Duration:3.12 Step:2114 CStep:4715
+Episode:903 Time:08:18:46 Reward:14.00 Loss:0.00 Last_100_Avg_Rew:12.333 Avg_Max_Q:0.000 Epsilon:0.05 Duration:3.23 Step:2310 CStep:7026
+Episode:904 Time:08:18:50 Reward:11.00 Loss:0.00 Last_100_Avg_Rew:12.000 Avg_Max_Q:0.000 Epsilon:0.05 Duration:3.33 Step:2399 CStep:9426
+Episode:905 Time:08:18:53 Reward:12.00 Loss:0.00 Last_100_Avg_Rew:12.000 Avg_Max_Q:0.000 Epsilon:0.05 Duration:3.52 Step:2516 CStep:11943
+Episode:906 Time:08:18:56 Reward:18.00 Loss:0.00 Last_100_Avg_Rew:13.000 Avg_Max_Q:0.000 Epsilon:0.05 Duration:2.84 Step:1862 CStep:13806
+Episode:907 Time:08:18:59 Reward:11.00 Loss:0.00 Last_100_Avg_Rew:12.714 Avg_Max_Q:0.000 Epsilon:0.05 Duration:3.19 Step:2302 CStep:16109
+Episode:908 Time:08:19:03 Reward:8.00 Loss:0.00 Last_100_Avg_Rew:12.125 Avg_Max_Q:0.000 Epsilon:0.05 Duration:4.09 Step:2699 CStep:18809
+Episode:909 Time:08:19:06 Reward:14.00 Loss:0.00 Last_100_Avg_Rew:12.333 Avg_Max_Q:0.000 Epsilon:0.05 Duration:2.84 Step:2042 CStep:20852
+Episode:910 Time:08:19:09 Reward:13.00 Loss:0.00 Last_100_Avg_Rew:12.400 Avg_Max_Q:0.000 Epsilon:0.05 Duration:3.08 Step:2220 CStep:23073
+Episode:911 Time:08:19:13 Reward:14.00 Loss:0.00 Last_100_Avg_Rew:12.545 Avg_Max_Q:0.000 Epsilon:0.05 Duration:3.41 Step:2088 CStep:25162
+Episode:912 Time:08:19:16 Reward:9.00 Loss:0.00 Last_100_Avg_Rew:12.250 Avg_Max_Q:0.000 Epsilon:0.05 Duration:3.83 Step:2576 CStep:27739
+Episode:913 Time:08:19:19 Reward:16.00 Loss:0.00 Last_100_Avg_Rew:12.538 Avg_Max_Q:0.000 Epsilon:0.05 Duration:2.93 Step:1998 CStep:29738
+Episode:914 Time:08:19:24 Reward:10.00 Loss:0.00 Last_100_Avg_Rew:12.357 Avg_Max_Q:0.000 Epsilon:0.05 Duration:4.51 Step:2663 CStep:32402
+Episode:915 Time:08:19:28 Reward:5.00 Loss:0.00 Last_100_Avg_Rew:11.867 Avg_Max_Q:0.000 Epsilon:0.05 Duration:4.38 Step:2932 CStep:35335
+Episode:916 Time:08:19:31 Reward:14.00 Loss:0.00 Last_100_Avg_Rew:12.000 Avg_Max_Q:0.000 Epsilon:0.05 Duration:3.26 Step:2184 CStep:37520
+Episode:917 Time:08:19:35 Reward:13.00 Loss:0.00 Last_100_Avg_Rew:12.059 Avg_Max_Q:0.000 Epsilon:0.05 Duration:3.81 Step:2484 CStep:40005
+Episode:918 Time:08:19:40 Reward:18.00 Loss:0.00 Last_100_Avg_Rew:12.389 Avg_Max_Q:0.000 Epsilon:0.05 Duration:4.94 Step:1951 CStep:41957
+Episode:919 Time:08:19:45 Reward:13.00 Loss:0.00 Last_100_Avg_Rew:12.421 Avg_Max_Q:0.000 Epsilon:0.05 Duration:5.06 Step:2249 CStep:44207
+Episode:920 Time:08:19:51 Reward:11.00 Loss:0.00 Last_100_Avg_Rew:12.350 Avg_Max_Q:0.000 Epsilon:0.05 Duration:5.98 Step:2287 CStep:46495
+Episode:921 Time:08:19:56 Reward:18.00 Loss:0.00 Last_100_Avg_Rew:12.619 Avg_Max_Q:0.000 Epsilon:0.05 Duration:4.43 Step:1925 CStep:48421
+Episode:922 Time:08:20:00 Reward:16.00 Loss:0.00 Last_100_Avg_Rew:12.773 Avg_Max_Q:0.000 Epsilon:0.05 Duration:4.82 Step:2065 CStep:50487
+Episode:923 Time:08:20:04 Reward:12.00 Loss:0.00 Last_100_Avg_Rew:12.739 Avg_Max_Q:0.000 Epsilon:0.05 Duration:3.77 Step:2474 CStep:52962
+Episode:924 Time:08:20:10 Reward:11.00 Loss:0.00 Last_100_Avg_Rew:12.667 Avg_Max_Q:0.000 Epsilon:0.05 Duration:6.16 Step:2346 CStep:55309
+Episode:925 Time:08:20:22 Reward:10.00 Loss:0.00 Last_100_Avg_Rew:12.560 Avg_Max_Q:0.000 Epsilon:0.05 Duration:11.19 Step:2634 CStep:57944
+Episode:926 Time:08:20:30 Reward:19.00 Loss:0.00 Last_100_Avg_Rew:12.808 Avg_Max_Q:0.000 Epsilon:0.05 Duration:8.27 Step:1846 CStep:59791
+Episode:927 Time:08:20:41 Reward:4.00 Loss:0.00 Last_100_Avg_Rew:12.481 Avg_Max_Q:0.000 Epsilon:0.05 Duration:10.79 Step:2752 CStep:62544
+Episode:928 Time:08:20:48 Reward:16.00 Loss:0.00 Last_100_Avg_Rew:12.607 Avg_Max_Q:0.000 Epsilon:0.05 Duration:7.46 Step:2266 CStep:64811
+Episode:929 Time:08:20:53 Reward:16.00 Loss:0.00 Last_100_Avg_Rew:12.724 Avg_Max_Q:0.000 Epsilon:0.05 Duration:5.05 Step:2124 CStep:66936
+Episode:930 Time:08:21:03 Reward:9.00 Loss:0.00 Last_100_Avg_Rew:12.600 Avg_Max_Q:0.000 Epsilon:0.05 Duration:9.51 Step:2898 CStep:69835
+Average Reward: 12.6
+(pwnet) [yash:...r-Network-ICLR23/Atari Pong]$ py run_kmeans.py (main✱) 
+py run_pwnet*.py
+py run_pwnet.py
+A.L.E: Arcade Learning Environment (version 0.7.5+db37282)
+[Powered by Stella]
+ 
+==========================
+Rewards: [-20.633333333333333]
+Accuracy: [0.19252279384803855]
+==========================
+ 
+ 
+==========================
+Rewards: [-20.633333333333333, -20.966666666666665]
+Accuracy: [0.19252279384803855, 0.14294077899556035]
+==========================
+ 
+ 
+==========================
+Rewards: [-20.633333333333333, -20.966666666666665, -21.0]
+Accuracy: [0.19252279384803855, 0.14294077899556035, 0.04910195627273438]
+==========================
+ 
+ 
+==========================
+Rewards: [-20.633333333333333, -20.966666666666665, -21.0, -21.0]
+Accuracy: [0.19252279384803855, 0.14294077899556035, 0.04910195627273438, 0.21998071280993142]
+==========================
+ 
+ 
+==========================
+Rewards: [-20.633333333333333, -20.966666666666665, -21.0, -21.0, -20.633333333333333]
+Accuracy: [0.19252279384803855, 0.14294077899556035, 0.04910195627273438, 0.21998071280993142, 0.1990856648511812]
+==========================
+ 
+ 
+===== Data Accuracy:
+Mean: 0.16072638135548917
+Standard Error: 0.02740062933596465
+ 
+===== Data Reward:
+Mean: -20.846666666666664
+Standard Error: 0.07808826914318039
+A.L.E: Arcade Learning Environment (version 0.7.5+db37282)
+[Powered by Stella]
+100%|████████████████████████████████████████████████████████████████████████████████████████████| 69834/69834 [00:07<00:00, 8811.83it/s]
+0.025771706249169204 31071
+0.029701810612118653 51233
+0.031047523837750193 49382
+0.027577601812241895 1771
+0.03437352861862539 10620
+0.0372319022372818 65138
+run_pwnet*.py:526: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  model.prototypes = torch.nn.Parameter(torch.tensor(real_trans_x, dtype=torch.float32))
+ 
+==========================
+Rewards: [9.8]
+Accuracy: [0.8190543025945972]
+==========================
+ 
+100%|██████████████████████████████████████████████████████████████████████████████████| 69834/69834 [00:07<00:00, 8899.87it/s]
+0.03029146744597913 4876
+0.03329593566961008 25929
+0.030132552865382505 54132
+0.034086164503986216 39721
+0.03205146972144913 32692
+0.02638360911723324 4886
+run_pwnet*.py:526: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  model.prototypes = torch.nn.Parameter(torch.tensor(real_trans_x, dtype=torch.float32))
+ 
+==========================
+Rewards: [9.8, 11.133333333333333]
+Accuracy: [0.8190543025945972, 0.8298760293233075]
+==========================
+ 
+100%|██████████████████████████████████████████████████████████████████████████████████| 69834/69834 [00:07<00:00, 9664.23it/s]
+0.025906225894789515 29949
+0.02985928752677625 24965
+0.0192723581578683 69509
+0.025538164006266 20536
+0.02686092807981056 6075
+0.027800724208323 7301
+run_pwnet*.py:526: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  model.prototypes = torch.nn.Parameter(torch.tensor(real_trans_x, dtype=torch.float32))
+ 
+==========================
+Rewards: [9.8, 11.133333333333333, 10.2]
+Accuracy: [0.8190543025945972, 0.8298760293233075, 0.8202090080442713]
+==========================
+ 
+ 
+===== Data Accuracy:
+Mean: 0.8230464466540587
+Standard Error: 0.0028014177262377024
+ 
+===== Data Reward:
+Mean: 10.377777777777778
+Standard Error: 0.3225413489937367
+A.L.E: Arcade Learning Environment (version 0.7.5+db37282)
+[Powered by Stella]
+run_pwnet.py:312: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  trans_nn_human_x.append( t( torch.tensor(self.nn_human_x[i], dtype=torch.float32).view(1, -1)) )
+Epoch: 0
+Running Loss: 1.3578388877622374
+Acc.: 20.69049460148352
+ 
+Epoch: 1
+Running Loss: 1.257566667083419
+Acc.: 79.71475212647134
+ 
+Epoch: 2
+Running Loss: 1.2342164425841182
+Acc.: 83.05553168943494
+ 
+Epoch: 3
+Running Loss: 1.221205241950877
+Acc.: 84.8841538505599
+ 
+Epoch: 4
+Running Loss: 1.2118716406953203
+Acc.: 85.340951399032
+ 
+Epoch: 5
+Running Loss: 1.2038586332902803
+Acc.: 86.22877108571755
+ 
+Epoch: 6
+Running Loss: 1.1959601506427093
+Acc.: 87.04212847610047
+ 
+Epoch: 7
+Running Loss: 1.1911595259612298
+Acc.: 87.36145716985996
+ 
+Epoch: 8
+Running Loss: 1.1864384038326068
+Acc.: 87.65501045336083
+ 
+Epoch: 9
+Running Loss: 1.1834174812713385
+Acc.: 87.6048916000802
+ 
+Final Acc.: 87.65501045336083
+ 
+==========================
+Rewards: [10.066666666666666]
+Accuracy: [0.8658381359035564]
+==========================
+ 
+run_pwnet.py:312: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  trans_nn_human_x.append( t( torch.tensor(self.nn_human_x[i], dtype=torch.float32).view(1, -1)) )
+Epoch: 0
+Running Loss: 1.3552782525728038
+Acc.: 19.529169172609333
+ 
+Epoch: 1
+Running Loss: 1.2564929591648744
+Acc.: 80.00687344273562
+ 
+Epoch: 2
+Running Loss: 1.2318715819945703
+Acc.: 81.90709396569007
+ 
+Epoch: 3
+Running Loss: 1.2166452541019455
+Acc.: 84.72090958558867
+ 
+Epoch: 4
+Running Loss: 1.2059157125024131
+Acc.: 86.00681616404616
+ 
+Epoch: 5
+Running Loss: 1.1946415566044413
+Acc.: 86.78437437351434
+ 
+Epoch: 6
+Running Loss: 1.1877320406637786
+Acc.: 87.61348340349973
+ 
+Epoch: 7
+Running Loss: 1.1836865155688137
+Acc.: 88.19486210155512
+ 
+Epoch: 8
+Running Loss: 1.1783588840847923
+Acc.: 88.72325801185669
+ 
+Epoch: 9
+Running Loss: 1.175527193934926
+Acc.: 88.66454735515651
+ 
+Final Acc.: 88.72325801185669
+ 
+==========================
+Rewards: [10.066666666666666, 12.066666666666666]
+Accuracy: [0.8658381359035564, 0.8497778907514004]
+==========================
+ 
+run_pwnet.py:312: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  trans_nn_human_x.append( t( torch.tensor(self.nn_human_x[i], dtype=torch.float32).view(1, -1)) )
+Epoch: 0
+Running Loss: 1.359045942406078
+Acc.: 18.211759314946875
+ 
+Epoch: 1
+Running Loss: 1.255187030895289
+Acc.: 80.12859065784575
+ 
+Epoch: 2
+Running Loss: 1.2266388806231292
+Acc.: 83.67557350287825
+ 
+Epoch: 3
+Running Loss: 1.2136042284004853
+Acc.: 85.2020505770828
+ 
+Epoch: 4
+Running Loss: 1.2048411604030664
+Acc.: 86.15574075665148
+ 
+Epoch: 5
+Running Loss: 1.1959165665474567
+Acc.: 86.97339404874417
+ 
+Epoch: 6
+Running Loss: 1.1916417749155135
+Acc.: 87.3700489732795
+ 
+Epoch: 7
+Running Loss: 1.1856766128059708
+Acc.: 88.07887275539136
+ 
+Epoch: 8
+Running Loss: 1.1805189490973294
+Acc.: 87.98722685224962
+ 
+Epoch: 9
+Running Loss: 1.1755454966000147
+Acc.: 88.6258842397686
+ 
+Final Acc.: 88.6258842397686
+ 
+==========================
+Rewards: [10.066666666666666, 12.066666666666666, 13.766666666666667]
+Accuracy: [0.8658381359035564, 0.8497778907514004, 0.8629285020515699]
+==========================
+ 
+ 
+===== Data Accuracy:
+Mean: 0.8595148429021755
+Standard Error: 0.004033820085725747
+ 
+===== Data Reward:
+Mean: 11.966666666666667
+Standard Error: 0.8730533902472533
