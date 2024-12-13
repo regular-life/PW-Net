@@ -1,0 +1,55 @@
+A.L.E: Arcade Learning Environment (version 0.7.5+db37282)
+[Powered by Stella]
+100%|████████████████████████████████████████████████████████████████████████████████████████████| 69834/69834 [00:07<00:00, 8811.83it/s]
+0.025771706249169204 31071
+0.029701810612118653 51233
+0.031047523837750193 49382
+0.027577601812241895 1771
+0.03437352861862539 10620
+0.0372319022372818 65138
+run_pwnet*.py:526: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  model.prototypes = torch.nn.Parameter(torch.tensor(real_trans_x, dtype=torch.float32))
+ 
+==========================
+Rewards: [9.8]
+Accuracy: [0.8190543025945972]
+==========================
+ 
+100%|██████████████████████████████████████████████████████████████████████████████████| 69834/69834 [00:07<00:00, 8899.87it/s]
+0.03029146744597913 4876
+0.03329593566961008 25929
+0.030132552865382505 54132
+0.034086164503986216 39721
+0.03205146972144913 32692
+0.02638360911723324 4886
+run_pwnet*.py:526: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  model.prototypes = torch.nn.Parameter(torch.tensor(real_trans_x, dtype=torch.float32))
+ 
+==========================
+Rewards: [9.8, 11.133333333333333]
+Accuracy: [0.8190543025945972, 0.8298760293233075]
+==========================
+ 
+100%|██████████████████████████████████████████████████████████████████████████████████| 69834/69834 [00:07<00:00, 9664.23it/s]
+0.025906225894789515 29949
+0.02985928752677625 24965
+0.0192723581578683 69509
+0.025538164006266 20536
+0.02686092807981056 6075
+0.027800724208323 7301
+run_pwnet*.py:526: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  model.prototypes = torch.nn.Parameter(torch.tensor(real_trans_x, dtype=torch.float32))
+ 
+==========================
+Rewards: [9.8, 11.133333333333333, 10.2]
+Accuracy: [0.8190543025945972, 0.8298760293233075, 0.8202090080442713]
+==========================
+ 
+ 
+===== Data Accuracy:
+Mean: 0.8230464466540587
+Standard Error: 0.0028014177262377024
+ 
+===== Data Reward:
+Mean: 10.377777777777778
+Standard Error: 0.3225413489937367

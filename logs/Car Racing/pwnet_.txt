@@ -1,0 +1,130 @@
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\gym\utils\env_checker.py:200: UserWarning: WARN: We recommend you to use a symmetric and normalized Box action space (range=[-1, 1]) cf https://stable-baselines3.readthedocs.io/en/master/guide/rl_tips.html
+  logger.warn(
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\pygame\pkgdata.py:27: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import resource_stream, resource_exists
+Action Dimension: 2
+D:\College_Stuff\Python\Prototype-Wrapper-Network-ICLR23-main\Car Racing\ppo.py:190: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value)
+, which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pyt
+orch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the function
+s that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.ser
+ialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.net.load_state_dict(torch.load(filepath, map_location='cpu'))
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\torch\nn\modules\instancenorm.py:88: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(f"input's size at dim={feature_dim} does not match num_features. "
+run_pwnet_.py:217: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible 
+to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more detai
+ls). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will
+ no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(MODEL_DIR))
+Accuracy Before Projection: 0.002359605925308745
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22562/22562 [00:07<00:00, 2967.27it/s] 
+7.830131684420704 0
+7.57990827741776 706
+6.246399601729283 21251
+6.949260698289782 20159
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\torch\nn\modules\instancenorm.py:88: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(f"input's size at dim={feature_dim} does not match num_features. "
+Accuracy After Projection: 0.003110737807229102
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [01:44<00:00,  3.47s/it]
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\gym\utils\env_checker.py:200: UserWarning: WARN: We recommend you to use a symmetric and normalized Box action space (range=[-1, 1]) cf https://stable-baselines3.readthedocs.io/en/master/guide/rl_tips.html
+  logger.warn(
+Action Dimension: 2
+D:\College_Stuff\Python\Prototype-Wrapper-Network-ICLR23-main\Car Racing\ppo.py:190: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value)
+, which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pyt
+orch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the function
+s that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.ser
+ialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.net.load_state_dict(torch.load(filepath, map_location='cpu'))
+run_pwnet_.py:217: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible 
+to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more detai
+ls). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will
+ no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(MODEL_DIR))
+Accuracy Before Projection: 0.002376927517550313
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22562/22562 [00:07<00:00, 3011.86it/s] 
+7.357444850929726 7704
+7.634808632109919 9036
+6.786342632352939 5352
+6.973970613913462 11494
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\torch\nn\modules\instancenorm.py:88: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(f"input's size at dim={feature_dim} does not match num_features. "
+Accuracy After Projection: 0.0033496725251198913
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [02:47<00:00,  5.59s/it]
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\gym\utils\env_checker.py:200: UserWarning: WARN: We recommend you to use a symmetric and normalized Box action space (range=[-1, 1]) cf https://stable-baselines3.readthedocs.io/en/master/guide/rl_tips.html
+  logger.warn(
+Action Dimension: 2
+D:\College_Stuff\Python\Prototype-Wrapper-Network-ICLR23-main\Car Racing\ppo.py:190: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value)
+, which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pyt
+orch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the function
+s that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.ser
+ialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.net.load_state_dict(torch.load(filepath, map_location='cpu'))
+run_pwnet_.py:217: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(MODEL_DIR))
+Accuracy Before Projection: 0.002391671128907865
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22562/22562 [00:09<00:00, 2359.33it/s] 
+6.450114916780865 13726
+7.820374105258783 12031
+7.576095437703345 19020
+6.761632666524478 21422
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\torch\nn\modules\instancenorm.py:88: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(f"input's size at dim={feature_dim} does not match num_features. "
+Accuracy After Projection: 0.005069859977753785
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [02:46<00:00,  5.55s/it] 
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\gym\utils\env_checker.py:200: UserWarning: WARN: We recommend you to use a symmetric and normalized Box action space (range=[-1, 1]) cf https://stable-baselines3.readthedocs.io/en/master/guide/rl_tips.html
+  logger.warn(
+Action Dimension: 2
+D:\College_Stuff\Python\Prototype-Wrapper-Network-ICLR23-main\Car Racing\ppo.py:190: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value)
+, which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pyt
+orch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the function
+s that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.ser
+ialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.net.load_state_dict(torch.load(filepath, map_location='cpu'))
+run_pwnet_.py:217: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible 
+to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more detai
+ls). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will
+ no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(MODEL_DIR))
+Accuracy Before Projection: 0.0023779006477244917
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22562/22562 [00:11<00:00, 1980.56it/s]
+6.083186167505582 15881
+7.95815034696466 9987
+6.686510736892745 826
+7.098317204146787 14688
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\torch\nn\modules\instancenorm.py:88: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(f"input's size at dim={feature_dim} does not match num_features. "
+Accuracy After Projection: 0.0030607382429493056
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [04:09<00:00,  8.33s/it]
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\gym\utils\env_checker.py:200: UserWarning: WARN: We recommend you to use a symmetric and normalized Box action space (range=[-1, 1]) cf https://stable-baselines3.readthedocs.io/en/master/guide/rl_tips.html
+  logger.warn(
+Action Dimension: 2
+D:\College_Stuff\Python\Prototype-Wrapper-Network-ICLR23-main\Car Racing\ppo.py:190: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value)
+, which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pyt
+orch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the function
+s that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.ser
+ialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.net.load_state_dict(torch.load(filepath, map_location='cpu'))
+run_pwnet_.py:217: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible 
+to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more detai
+ls). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will
+ no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(MODEL_DIR))
+Accuracy Before Projection: 0.0024167443134003566
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 22562/22562 [00:10<00:00, 2233.51it/s] 
+8.066817934333471 7707
+7.114138258856638 20153
+8.153397001254778 5496
+7.176231055811773 5493
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\torch\nn\modules\instancenorm.py:88: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(f"input's size at dim={feature_dim} does not match num_features. "
+Accuracy After Projection: 0.002352004215519523
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [09:55<00:00, 19.86s/it]
+
+===== Data MAE:
+Mean: 30.544409160495235
+Standard Error: 5.4826140286093095
+
+===== Data Reward:
+Rewards: [ 0.13666667 -2.71       -2.58666667 -5.32333333  1.37      ]
+Mean: -1.8226666666665818
+Standard Error: 1.051814263282573

@@ -1,0 +1,157 @@
+A.L.E: Arcade Learning Environment (version 0.7.5+db37282)
+[Powered by Stella]
+run_pwnet.py:312: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  trans_nn_human_x.append( t( torch.tensor(self.nn_human_x[i], dtype=torch.float32).view(1, -1)) )
+Epoch: 0
+Running Loss: 1.3578388877622374
+Acc.: 20.69049460148352
+ 
+Epoch: 1
+Running Loss: 1.257566667083419
+Acc.: 79.71475212647134
+ 
+Epoch: 2
+Running Loss: 1.2342164425841182
+Acc.: 83.05553168943494
+ 
+Epoch: 3
+Running Loss: 1.221205241950877
+Acc.: 84.8841538505599
+ 
+Epoch: 4
+Running Loss: 1.2118716406953203
+Acc.: 85.340951399032
+ 
+Epoch: 5
+Running Loss: 1.2038586332902803
+Acc.: 86.22877108571755
+ 
+Epoch: 6
+Running Loss: 1.1959601506427093
+Acc.: 87.04212847610047
+ 
+Epoch: 7
+Running Loss: 1.1911595259612298
+Acc.: 87.36145716985996
+ 
+Epoch: 8
+Running Loss: 1.1864384038326068
+Acc.: 87.65501045336083
+ 
+Epoch: 9
+Running Loss: 1.1834174812713385
+Acc.: 87.6048916000802
+ 
+Final Acc.: 87.65501045336083
+ 
+==========================
+Rewards: [10.066666666666666]
+Accuracy: [0.8658381359035564]
+==========================
+ 
+run_pwnet.py:312: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  trans_nn_human_x.append( t( torch.tensor(self.nn_human_x[i], dtype=torch.float32).view(1, -1)) )
+Epoch: 0
+Running Loss: 1.3552782525728038
+Acc.: 19.529169172609333
+ 
+Epoch: 1
+Running Loss: 1.2564929591648744
+Acc.: 80.00687344273562
+ 
+Epoch: 2
+Running Loss: 1.2318715819945703
+Acc.: 81.90709396569007
+ 
+Epoch: 3
+Running Loss: 1.2166452541019455
+Acc.: 84.72090958558867
+ 
+Epoch: 4
+Running Loss: 1.2059157125024131
+Acc.: 86.00681616404616
+ 
+Epoch: 5
+Running Loss: 1.1946415566044413
+Acc.: 86.78437437351434
+ 
+Epoch: 6
+Running Loss: 1.1877320406637786
+Acc.: 87.61348340349973
+ 
+Epoch: 7
+Running Loss: 1.1836865155688137
+Acc.: 88.19486210155512
+ 
+Epoch: 8
+Running Loss: 1.1783588840847923
+Acc.: 88.72325801185669
+ 
+Epoch: 9
+Running Loss: 1.175527193934926
+Acc.: 88.66454735515651
+ 
+Final Acc.: 88.72325801185669
+ 
+==========================
+Rewards: [10.066666666666666, 12.066666666666666]
+Accuracy: [0.8658381359035564, 0.8497778907514004]
+==========================
+ 
+run_pwnet.py:312: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  trans_nn_human_x.append( t( torch.tensor(self.nn_human_x[i], dtype=torch.float32).view(1, -1)) )
+Epoch: 0
+Running Loss: 1.359045942406078
+Acc.: 18.211759314946875
+ 
+Epoch: 1
+Running Loss: 1.255187030895289
+Acc.: 80.12859065784575
+ 
+Epoch: 2
+Running Loss: 1.2266388806231292
+Acc.: 83.67557350287825
+ 
+Epoch: 3
+Running Loss: 1.2136042284004853
+Acc.: 85.2020505770828
+ 
+Epoch: 4
+Running Loss: 1.2048411604030664
+Acc.: 86.15574075665148
+ 
+Epoch: 5
+Running Loss: 1.1959165665474567
+Acc.: 86.97339404874417
+ 
+Epoch: 6
+Running Loss: 1.1916417749155135
+Acc.: 87.3700489732795
+ 
+Epoch: 7
+Running Loss: 1.1856766128059708
+Acc.: 88.07887275539136
+ 
+Epoch: 8
+Running Loss: 1.1805189490973294
+Acc.: 87.98722685224962
+ 
+Epoch: 9
+Running Loss: 1.1755454966000147
+Acc.: 88.6258842397686
+ 
+Final Acc.: 88.6258842397686
+ 
+==========================
+Rewards: [10.066666666666666, 12.066666666666666, 13.766666666666667]
+Accuracy: [0.8658381359035564, 0.8497778907514004, 0.8629285020515699]
+==========================
+ 
+ 
+===== Data Accuracy:
+Mean: 0.8595148429021755
+Standard Error: 0.004033820085725747
+ 
+===== Data Reward:
+Mean: 11.966666666666667
+Standard Error: 0.8730533902472533

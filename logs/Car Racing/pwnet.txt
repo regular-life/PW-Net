@@ -1,0 +1,250 @@
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\gym\utils\env_checker.py:200: UserWarning: WARN: We recommend you to use a symmetric and normalized Box action space (range=[-1, 1]) cf https://stable-baselines3.readthedocs.io/en/master/guide/rl_tips.html
+  logger.warn(
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\pygame\pkgdata.py:27: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import resource_stream, resource_exists
+Action Dimension: 2
+D:\College_Stuff\Python\Prototype-Wrapper-Network-ICLR23-main\Car Racing\ppo.py:190: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value)
+, which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pyt
+orch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the function
+s that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.ser
+ialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.net.load_state_dict(torch.load(filepath, map_location='cpu'))
+run_pwnet.py:94: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  trans_nn_human_x.append( t( torch.tensor(self.nn_human_x[i], dtype=torch.float32).view(1, -1)) )
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\torch\nn\modules\instancenorm.py:88: UserWarning: input's size at dim=0 does not match num_features. You can silence this warning by not passing in num_features, which is not used because affine=False
+  warnings.warn(f"input's size at dim={feature_dim} does not match num_features. "
+Epoch: 0
+Running Error: 0.020900338845955414
+MAE: 0.015543748743091742
+
+Epoch: 1
+Running Error: 0.010805433811112004
+MAE: 0.000512952761901758
+
+Epoch: 2
+Running Error: 0.007604108167374929
+MAE: 0.0002642568881940382
+
+Epoch: 3
+Running Error: 0.006563242609782815
+MAE: 0.0002057529178185037
+
+Epoch: 4
+Running Error: 0.0071722068783474915
+MAE: 0.0002370355122832238
+
+Epoch: 5
+Running Error: 0.006404429952572456
+MAE: 0.0003717900833483845
+
+Epoch: 6
+Running Error: 0.005836103988825224
+MAE: 0.00022528541243657657
+
+Epoch: 7
+Running Error: 0.005556448406176101
+MAE: 0.00026207282589318383
+
+Epoch: 8
+Running Error: 0.005447131913206765
+MAE: 0.00022212705781806584
+
+Epoch: 9
+Running Error: 0.004987886438643225
+MAE: 0.0001555467062615126
+
+run_pwnet.py:269: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible t
+o construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more detail
+s). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will 
+no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(MODEL_DIR))
+Sanity Check: MSE Eval: 0.00015554547049032312
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [09:33<00:00, 19.10s/it] 
+Iteration Reward: 220.24999999999287
+C:\Users\swapn\miniconda3\envs\pwnet\lib\site-packages\gym\utils\env_checker.py:200: UserWarning: WARN: We recommend you to use a symmetric and normalized Box action space (range=[-1, 1]) cf https://stable-baselines3.readthedocs.io/en/master/guide/rl_tips.html
+  logger.warn(
+Action Dimension: 2
+Epoch: 0
+Running Error: 0.019538830298595343
+MAE: 0.015998753864084
+
+Epoch: 1
+Running Error: 0.007907346413466187
+MAE: 0.00038167275560613766
+
+Epoch: 2
+Running Error: 0.007597402195253597
+MAE: 0.00038739910969705013
+
+Epoch: 3
+Running Error: 0.006178821562627784
+MAE: 0.00023401012542957153
+
+Epoch: 4
+Running Error: 0.0062551497477723456
+MAE: 0.00018870799067581607
+
+Epoch: 5
+Running Error: 0.005752767502617489
+MAE: 0.0001988915295431181
+
+Epoch: 6
+Running Error: 0.005380680974221755
+MAE: 0.00017651241741992014
+
+Epoch: 7
+Running Error: 0.005607971894314378
+MAE: 0.0001660902070557863
+
+Epoch: 8
+Running Error: 0.005044597257401928
+MAE: 0.00015997172609772314
+
+Epoch: 9
+Running Error: 0.005936150330954189
+MAE: 0.00015846721394055315
+
+Sanity Check: MSE Eval: 0.00015846880013285173
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [10:36<00:00, 21.23s/it] 
+Iteration Reward: 221.6499999999929
+Action Dimension: 2
+Epoch: 0
+Running Error: 0.0187617178113271
+MAE: 0.012191624338956982
+
+Epoch: 1
+Running Error: 0.008169326821583516
+MAE: 0.0005116367389366008
+
+Epoch: 2
+Running Error: 0.007101752015246901
+MAE: 0.0002495212473155682
+
+Epoch: 3
+Running Error: 0.006223907087739589
+MAE: 0.0002712217172798981
+
+Epoch: 4
+Running Error: 0.006483468370134191
+MAE: 0.0005538413123324329
+
+Epoch: 5
+Running Error: 0.005623592175376765
+MAE: 0.000172627036108754
+
+Epoch: 6
+Running Error: 0.005054459147158253
+MAE: 0.00016675696252765478
+
+Epoch: 7
+Running Error: 0.005366799577886949
+MAE: 0.00015350182135835853
+
+Epoch: 8
+Running Error: 0.017787453721698886
+MAE: 0.00017013216761204453
+
+Epoch: 9
+Running Error: 0.007720753670201462
+MAE: 0.000267416277091117
+
+Sanity Check: MSE Eval: 0.0001534952456315266
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [09:52<00:00, 19.74s/it] 
+Iteration Reward: 219.83666666665948
+Action Dimension: 2
+Epoch: 0
+Running Error: 0.017159430708184775
+MAE: 0.010807406716329411
+
+Epoch: 1
+Running Error: 0.008869535367205085
+MAE: 0.0005692448235650959
+
+Epoch: 2
+Running Error: 0.006946734315072643
+MAE: 0.00024369249194800192
+
+Epoch: 3
+Running Error: 0.0063898972516434885
+MAE: 0.0003179296149302024
+
+Epoch: 4
+Running Error: 0.006186842693315381
+MAE: 0.00019571665844793525
+
+Epoch: 5
+Running Error: 0.008017579375256035
+MAE: 0.00020339585177441214
+
+Epoch: 6
+Running Error: 0.007635964970625462
+MAE: 0.000412373978715567
+
+Epoch: 7
+Running Error: 0.005816999250919381
+MAE: 0.00019659791406626567
+
+Epoch: 8
+Running Error: 0.005831753559708701
+MAE: 0.00023294145688176811
+
+Epoch: 9
+Running Error: 0.006182725363413978
+MAE: 0.00020632964121905943
+
+Sanity Check: MSE Eval: 0.0001955538584029124
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [09:37<00:00, 19.24s/it] 
+Iteration Reward: 221.9299999999929
+Action Dimension: 2
+Epoch: 0
+Running Error: 0.016550556839003146
+MAE: 0.012563439833548315
+
+Epoch: 1
+Running Error: 0.00868024920809568
+MAE: 0.00130171574422357
+
+Epoch: 2
+Running Error: 0.0069440808917248025
+MAE: 0.0002118243434888369
+
+Epoch: 3
+Running Error: 0.007153487771389367
+MAE: 0.0006333262043405817
+
+Epoch: 4
+Running Error: 0.005857890090085935
+MAE: 0.0004309090562696449
+
+Epoch: 5
+Running Error: 0.005805888733716181
+MAE: 0.0001719805470083443
+
+Epoch: 6
+Running Error: 0.006070814317653105
+MAE: 0.00017693203450736198
+
+Epoch: 7
+Running Error: 0.005925929563822622
+MAE: 0.00016800875615882258
+
+Epoch: 8
+Running Error: 0.005325548563596694
+MAE: 0.0001700145338972217
+
+Epoch: 9
+Running Error: 0.005372224772258638
+MAE: 0.00017213300613682273
+
+Sanity Check: MSE Eval: 0.000168467740079053
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [08:41<00:00, 17.40s/it] 
+Iteration Reward: 218.82666666665966
+ 
+===== Data MAE:
+Mean: 1.1099515016406472
+Standard Error: 0.1997047047421056
+
+===== Data Reward:
+Rewards: [220.25       221.65       219.83666667 221.93       218.82666667]
+Mean: 220.49866666665957
+Standard Error: 0.5165247977267492
