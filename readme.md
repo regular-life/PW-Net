@@ -1,3 +1,6 @@
+**Note**: This repository is a fork of [Eoin Kenny's original code](https://github.com/EoinKenny/Prototype-Wrapper-Network-ICLR23). All credit due to them.
+
+# CSE564, Reinforcement Learning, Group 2
 
 # Prototype-Wrapper Network (PW-Net) - ICLR-2023
 
